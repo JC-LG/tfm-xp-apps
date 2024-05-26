@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">unir-tfm</string>
+    <string name="title_activity_main">unir-tfm</string>
+    <string name="package_name">com.unir.tfm.app</string>
+    <string name="custom_url_scheme">com.unir.tfm.app</string>
+</resources>
