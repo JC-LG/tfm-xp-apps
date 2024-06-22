@@ -1,0 +1,8 @@
+{
+  "appId": "com.unir.tfm.app",
+  "appName": "unir-tfm",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

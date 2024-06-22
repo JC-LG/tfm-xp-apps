@@ -16,6 +16,7 @@ Integrando tecnologías como ReactJS, ViteJS, NextJS, Capacitor y Electron permi
 
 ## MacOS, Windows & Linux - Electron
 - [Electron](https://www.electronjs.org/)
+- [Electron Plugin](https://capacitor-community.github.io/electron/docs/gettingstarted)
 
 ## Web - Vite
 - [Vite](https://vitejs.dev/)
