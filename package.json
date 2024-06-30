@@ -1,7 +1,7 @@
 {
   "name": "unir-tfm",
   "author": {
-    "name": "Luis Bramvila & Juan Ledezma"
+    "name": "Luis Brambila & Juan Ledezma"
   },
   "private": true,
   "version": "0.0.0",
@@ -14,7 +14,8 @@
     "start:ios": "npx cap run ios",
     "open:android": "npx cap open android",
     "start:android": "npx cap run android",
-    "start:electron": "npx cap open @capacitor-community/electron",
+    "sync:electron": "rm -rf ./electron/app && cp -a ./dist ./electron/app",
+    "start:electron": "npm run build && npm run sync:electron && npx cap open @capacitor-community/electron",
     "lint": "eslint  --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
