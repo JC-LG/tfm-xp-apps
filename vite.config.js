@@ -5,7 +5,7 @@ const PORT = 8000;
 
 const { APP_NAME } = process.env;
 
-const ROOT = APP_NAME || 'app-juan';
+const ROOT = APP_NAME || 'app-luis';
 
 // https://vitejs.dev/config/
 export default defineConfig({
